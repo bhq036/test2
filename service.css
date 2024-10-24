@@ -1,0 +1,113 @@
+.service {
+    background-color: rgba(203, 198, 167, 0.8);
+    width: 100vw;
+    padding: 20px; 
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.navbar {
+    width: 100%; 
+    padding: 10px 0; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around; 
+}
+
+.navbar li {
+    flex: 1; 
+}
+
+.navbar a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 30px;
+    padding: 20px; 
+    display: block; 
+    width: 100%; 
+    text-align: center; 
+}
+
+.navbar a:hover {
+    background-color: rgba(185, 181, 155, 0.8);
+}
+
+.service h1 {
+    font-size: 36px; 
+    font-weight: bold; 
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    margin: 10px 0; 
+}
+
+.service h2 {
+    font-size: 20px; 
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    margin: 10px 0; 
+}
+
+p{font-style: italic;
+font-size: 15px;}
+.menu {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+
+figure {
+    text-align: center; 
+    margin: 0; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 10px; 
+    border-radius: 10px; 
+    width: 25%; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+img {
+    width: 80%; 
+    max-width: 150px; 
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 10px; 
+    font-style: italic; 
+    color: #333; 
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+table {
+    width: 80%;  
+    max-width: 600px; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+}
+
+th, td {
+    padding: 10px; 
+    text-align: left; 
+    border: 1px solid #ccc; 
+}
+
+th {
+   
+    color: white; 
+    font-size: 20px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.5);
+}
